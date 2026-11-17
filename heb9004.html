@@ -164,6 +164,7 @@ const sInput=document.getElementById('sinput');
 sRange.addEventListener('input',e=>{sInput.value=e.target.value;renderGrid(+e.target.value);});
 sInput.addEventListener('input',e=>{let v=+e.target.value;if(v<3)v=3;if(v>55)v=55;sRange.value=v;renderGrid(v);});
 renderGrid(29);
+
 </script>
 
 </body>
